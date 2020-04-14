@@ -1,3 +1,18 @@
+# ============================= FORM ============================= #
+#@markdown <h3>⬅️ Click Here to Mount Google Drive</h3>
+#@markdown <br><center><img src='https://raw.githubusercontent.com/imgload/qBittorrent/master/content/img/google-drive.png' height="100" alt="netdata"/></center>
+
+# ================================================================ #
+from google.colab import drive
+drive.mount('/content/drive')
+
+# ============================= FORM ============================= #
+#@markdown <br><center><img src='https://raw.githubusercontent.com/imgload/qBittorrent/master/content/img/qbittorrent.png' height="60" alt="netdata"/></center>
+#@markdown <h3>⬅️ Click Here to Install qBittorrent</h3>
+#@markdown <h4>✅ The rclone method is recommended and always the safest.</h4>
+Version = "Newest" #@param ["Newest", "4.1.6", "4.0.3"]
+# ================================================================ #
+
 import os, psutil, IPython, uuid, time
 import ipywidgets as widgets
 
@@ -72,7 +87,7 @@ def Start_Localhost_QB():
 
 def Control_Panel_QB():
   clear_output(wait=True)
-  display(MakeLabel("✔ Successfully", "success"), MakeButton("Web Link", Start_Localhost_QB), HTML("<h2 style=\"font-family:Trebuchet MS;color:#4f8bd6;\">qBittorrent Edit by imgload.ir</h2><h4 style=\"font-family:Trebuchet MS;color:#4f8bd6;\">"))
+  display(MakeLabel("✔ Successfully", "success"), MakeButton("Web Link", Start_Localhost_QB), HTML("<h2 style=\"font-family:Trebuchet MS;color:#4f8bd6;\">qBittorrent Edit by Imgload.ir</h2><h4 style=\"font-family:Trebuchet MS;color:#4f8bd6;\">"))
 
 try:
   try:
