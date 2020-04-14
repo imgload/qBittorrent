@@ -6,4 +6,4 @@
 Licenced under the [**MIT License**](https://github.com/imgload/qBittorrent/blob/master/LICENSE).
 
 ## Website 
-[**Imgload.ir**](http://Imgload.ir).
+[**Imgload.ir**](http://Imgload.ir)
